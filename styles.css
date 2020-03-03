@@ -1,0 +1,62 @@
+
+@font-face {
+		font-family: Calibre-Regular;
+		src: url(font/Calibre-Regular.otf);
+}
+
+@font-face {
+		font-family: Calibre-Semibold;
+		src: url(font/Calibre-Semibold.otf);
+}
+
+body {
+	font-size: 32px;
+	cursor: crosshair;
+}
+
+h1 {
+	font-family: Calibre-Semibold;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: Calibre-Semibold;
+	font-size: 1em;
+}
+
+h3 {
+	font-family: Calibre-Semibold;
+	font-size: 1em;
+
+}
+
+p {
+	font-size: 1em;
+	font-family: Calibre-Regular;
+}
+
+ol {
+	font-family: Calibre-Regular;
+	font-size: 1em;
+	padding-left: 100px;
+}
+
+::selection {
+	color: white;
+	background: grey;
+
+}
+
+.container {
+	margin: 50px;			
+}
+
+.chapter-1 {
+	margin-top: 50px;
+}
+
+.chapter-2 {
+	margin-top: 50px;
+	padding-left: 70px;
+}
